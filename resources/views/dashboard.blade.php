@@ -3,9 +3,11 @@
         <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <div>
                 <h2 class="font-bold text-2xl text-slate-800 dark:text-white tracking-tight flex items-center">
-                    <span class="mr-3 text-3xl">👋</span>
-                    <span>Welcome Back, <span class="text-indigo-600 dark:text-indigo-400 font-extrabold">{{ auth()->user()->name }}</span></span>
-                </h2>
+    <span class="mr-3 text-3xl">👋</span>
+    <span class="text-gray-900 ">Welcome Back,</span> 
+    
+    <span class="ml-2 text-indigo-600 dark:text-indigo-400 font-extrabold">{{ auth()->user()->name }}</span>
+</h2>
                 <p class="text-sm text-slate-500 dark:text-slate-400 mt-1">Submit new leave requests or track the status of pending applications.</p>
             </div>
 
